@@ -568,6 +568,21 @@ export default function Index() {
                     </div>
                   </Link>
                 </div>
+
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl text-white font-semibold pb-4 text-center">
+                    Loading Bar
+                  </h5>
+                  <Link to="/Loading">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/loadingBar.jpg").default}
+                      />
+                    </div>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
